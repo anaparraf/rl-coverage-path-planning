@@ -10,7 +10,7 @@ import gymnasium as gym
 import numpy as np
 import torch
 # Importação crucial: aponta para o ambiente correto e o extrator de features
-from gymnasium_env.grid_world_cpp_final import GridWorldCPPEnv
+from gymnasium_env.grid_world_cpp import GridWorldCPPEnv
 from train_grid_world_cpp_final import CPPFeaturesExtractor 
 from stable_baselines3 import PPO
 
